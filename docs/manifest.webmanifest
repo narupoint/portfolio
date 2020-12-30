@@ -1,0 +1,20 @@
+{
+    "name": "naufal aqil rasyad",
+    "short_name": "Naufal",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#ffff",
+    "description": "portofolio app",
+    "icons": [
+      {
+        "src": "LOGO12.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      },
+      {
+        "src": "LOGO12.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      }
+    ]
+  }
