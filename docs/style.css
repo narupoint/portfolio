@@ -1,0 +1,88 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    font-size: 15pt;
+    background: #242424;
+}
+
+.header {
+  position: relative;
+  display: fle;
+  width: 100%;
+  align-items: center;
+}
+
+.img {
+  width: 500px;
+  margin: -250px 500px;
+  display: flex;
+}
+
+.header h2 {
+  font-weight: bold;
+}
+
+.skils {
+  border-bottom: 10px solid #07b842;
+  display: flex;
+  width: 50%;
+}
+
+.tombol {
+  background: #04882F;
+  color: white;
+  padding: 8px 10px;
+  border-radius: 50px;
+}
+
+.card1 {
+  background: rgb(78, 77, 77);
+  padding: 10px 10px 10px !important;
+  width: 380px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.404);
+  color: white;
+  border-radius: 10px;
+  margin: 10px;
+  display: flex;
+}
+
+.card1 h3 {
+  margin: 9px;
+}
+
+#loading {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  text-indent: 100%;
+  background: url(https://giphy.com/gifs/3ohs7TrCSp7c8ZrxBe/html5);
+}
+
+.card1 .containr {
+  position: relative;
+  width: 999px;
+  display: flex;
+}
+
+.menus {
+  position: relative;
+  display: flex;
+}
+
+::-webkit-scrollbar {
+  width: 9px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #04882F;
+}
+
+@media screen and  (max-width: 576px) {
+ .header img {
+display: none;
+ }
+}
+
