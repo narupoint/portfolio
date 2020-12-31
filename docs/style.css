@@ -69,7 +69,6 @@ body {
 
 .menus {
   position: relative;
-  display: flex;
 }
 
 ::-webkit-scrollbar {
