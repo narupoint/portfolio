@@ -40,7 +40,7 @@ body {
 
 .card1 {
   background: rgb(78, 77, 77);
-  padding: 10px 5px 5px !important;
+  padding: 5px 5px 10px !important;
   width: 380px;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.404);
   color: white;
@@ -65,10 +65,6 @@ body {
   position: relative;
   width: 999px;
   display: flex;
-}
-
-.menus {
-  position: relative;
 }
 
 ::-webkit-scrollbar {
